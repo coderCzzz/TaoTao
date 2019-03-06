@@ -16,4 +16,5 @@
 	<dubbo:registry protocol="zookeeper" address="192.168.1.4:2181"></dubbo:registry>
 	<!--声明需要暴露的服务接口  -->
 	<dubbo:service interface="com.taotao.service.TestService" ref="testServiceImpl"></dubbo:service>
+	<dubbo:service interface="com.taotao.service.ItemService" ref="itemServiceImpl"></dubbo:service>
 </beans>
